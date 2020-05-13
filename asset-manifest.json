@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/login-validation/static/css/main.4998a25d.chunk.css",
+    "main.js": "/login-validation/static/js/main.b9aca7f2.chunk.js",
+    "main.js.map": "/login-validation/static/js/main.b9aca7f2.chunk.js.map",
+    "runtime-main.js": "/login-validation/static/js/runtime-main.90bba2f0.js",
+    "runtime-main.js.map": "/login-validation/static/js/runtime-main.90bba2f0.js.map",
+    "static/js/2.19afa4b6.chunk.js": "/login-validation/static/js/2.19afa4b6.chunk.js",
+    "static/js/2.19afa4b6.chunk.js.map": "/login-validation/static/js/2.19afa4b6.chunk.js.map",
+    "index.html": "/login-validation/index.html",
+    "precache-manifest.06a5be8f5096836588cd0a840a2ff247.js": "/login-validation/precache-manifest.06a5be8f5096836588cd0a840a2ff247.js",
+    "service-worker.js": "/login-validation/service-worker.js",
+    "static/css/main.4998a25d.chunk.css.map": "/login-validation/static/css/main.4998a25d.chunk.css.map",
+    "static/js/2.19afa4b6.chunk.js.LICENSE.txt": "/login-validation/static/js/2.19afa4b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90bba2f0.js",
+    "static/js/2.19afa4b6.chunk.js",
+    "static/css/main.4998a25d.chunk.css",
+    "static/js/main.b9aca7f2.chunk.js"
+  ]
+}
