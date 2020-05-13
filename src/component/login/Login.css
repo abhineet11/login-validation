@@ -1,0 +1,76 @@
+.Login {
+    box-shadow: 0 0px 24px -8px #989898;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+}
+
+.Login-top_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-tb10{
+    margin: 10px 0px;
+}
+
+.Login-top_section img {
+    width: 120px;
+    height: 30px;
+}
+
+.Login-label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Login-content {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.Input-container {
+    width: 100%;
+    margin: 25px 0px;
+}
+
+.Input {
+    width: -webkit-fill-available;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #b9b5b5
+}
+
+.Button-container {
+    width: 100%;
+}
+
+.Button {
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #f70d28;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Error {
+    color: red;
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 12px
+}
+
+.Input-error {
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 600px) {
+    .Login {
+        width: 70%;
+    }
+  }
