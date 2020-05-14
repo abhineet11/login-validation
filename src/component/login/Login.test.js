@@ -18,5 +18,6 @@ describe("Login component", () => {
 
   test("should renders two input component", () => {
     expect(wrapper.find("input")).toHaveLength(2);
+    
   });
 });

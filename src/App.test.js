@@ -7,7 +7,7 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe("App component", () => {
   let wrapper;
-  
+
   beforeEach(() => {
     wrapper = shallow(<App />);
   });

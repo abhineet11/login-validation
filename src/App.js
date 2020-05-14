@@ -14,14 +14,12 @@ function App() {
     email: "",
     password: "",
   });
-  const validEmailRegex = RegExp(
-    /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
-  );
+  const validEmailRegex = RegExp(/^$|^\S+@\S+\.[a-zA-Z]{2,3}$/);
+  const validatePasswordRegex = RegExp(/(?=.*[A-Z])/)
 
   const checkValidity = (error) => {
     let valid = true;
     Object.values(error).forEach((val) => {
-      console.log(error, val, "val");
       val.length > 0 && (valid = false);
     });
     return valid;
@@ -64,6 +62,8 @@ function App() {
       errorMessage = "This is a required field";
     } else if (value.length < 6) {
       errorMessage = "Password must be 6 characters long!";
+    } else if(!validatePasswordRegex.test(value)) {
+      errorMessage = "Password must be contain atleast one uppercase characters!";
     }
     return errorMessage;
   };
@@ -98,7 +98,6 @@ function App() {
   };
 
   const onInputChange = (event) => {
-    console.log(event)
     event.preventDefault();
     const newForm = { ...formState };
     const { name, value } = event.target;
